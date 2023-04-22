@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./f2-2nd.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra&family=Inter&display=swap" rel="stylesheet"> 
+    <title>Document</title>
+</head>
+<body>
+<div class="upper"> 
+  <h4>Filter ui cards via their profession.</h4>
+    <select id="profession">
+        <option value="">Profession</option>
+        <!-- <option value="all"onclick="displayUsers(users)">All Users</option> -->
+        <option value="Developer">Developer</option>
+        <option value="Admin">Admin</option>
+      </select>
+
+      <div id="users-container">
+       <!--  <div class="user-card">
+        <p>1.</p>
+        <p>Name:jhon</p>
+        <p>age:22</p>
+        <p>profession:developer</p>
+      </div> -->
+      </div>
+      <button id="filter" class="btn btn1">Filter</button>
+    </div>
+
+
+  <div class="lower">
+      <h4>Add a new user</h4>
+      <div class="input-container">
+        <div class="nameinput">
+        <label for="name">Enter Name</label>
+        <input type="text" id="name">
+      </div>
+      <div class="professioninput">
+        <label for="profession">Enter Profession</label>
+        <input type="text" id="professionl">
+      </div>  
+      <div class="ageinput">
+        <label for="age">Enter Age</label>
+        <input type="number" id="age">
+      </div>
+     
+      
+      </div>
+      <button id="add-user" class="btn">Add User</button>
+    </div>
+     
+      
+      
+<script src="./f2-2nd.js"></script>    
+</body>
+</html>
